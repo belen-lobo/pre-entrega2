@@ -609,3 +609,10 @@ header nav ul li {
 .animar-enlace:hover{
     transform: scale(1.1);
 }
+.neon{
+    transition:1s ;
+}
+.neon:hover{
+    color: #fdfafa;
+    transform: scale(1.05);
+    text-shadow: 0 0 0.2em rgb(5, 5, 5), 0 0 0.2em #F87}
