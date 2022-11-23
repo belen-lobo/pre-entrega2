@@ -346,10 +346,10 @@ main a {
 .fixed {
     font-family: 'Fuzzy Bubbles', cursive;
     position: fixed;
-    bottom: 10%;
+    bottom: 5%;
     right: 3%;
     background-color: hsl(0, 4%, 95%);
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
     width: 200px;
     height: 200px;
@@ -368,7 +368,7 @@ main a {
 
 }
 .fixed div {
-    margin-top: 40px;
+    margin-top: 25px;
 }
 
 
@@ -423,7 +423,23 @@ main a {
     width: 50px;
     height: 50px;
 }
+/*!----- TRANSITION------*/
+.animar-enlace{
+    transition: 2s ;
+}
+.animar-enlace:hover{
+    transform: scale(1.1);
+}
+.neon{
+    transition:1s ;
+}
+.neon:hover{
+    color: #fdfafa;
+    transform: scale(1.05);
+    text-shadow: 0 0 0.2em rgb(5, 5, 5), 0 0 0.2em #F87}
 
+
+/*!----- RESPONSIVE------*/
 
 @media screen and (max-width: 697px ) {
 
@@ -600,19 +616,3 @@ header nav ul li {
     margin:0;
     padding: 0;
 }}
-
-/*!----- TRANSITION------*/
-
-.animar-enlace{
-    transition: 2s ;
-}
-.animar-enlace:hover{
-    transform: scale(1.1);
-}
-.neon{
-    transition:1s ;
-}
-.neon:hover{
-    color: #fdfafa;
-    transform: scale(1.05);
-    text-shadow: 0 0 0.2em rgb(5, 5, 5), 0 0 0.2em #F87}
