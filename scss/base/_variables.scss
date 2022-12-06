@@ -1,12 +1,10 @@
-/* PALETA DE COLORES */
-
 $color-principal:red;
 $color-secundario:hsla(204, 99%, 34%, 0.445);
 $color-terciario: #7CB518;
 $color-negro:hsl(0, 0%, 5%);
 $color-blanco: hsl(0, 41%, 97%);
+$borde-dorado: #fa9a0a;
 
-/*TAMAÑO DE FUENTES LISTAS*/
 $font-size:
 45px,
 30px,
@@ -16,3 +14,8 @@ $font-size:
 12px,
 8px;
 
+%sombra-img{
+    box-shadow: 2px 9px 28px 17px rgba(0, 0, 0, 0.65);
+    -webkit-box-shadow: 2px 9px 28px 17px rgba(0, 0, 0, 0.65);
+    -moz-box-shadow: 2px 9px 28px 17px rgba(0, 0, 0, 0.65);
+}
