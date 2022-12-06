@@ -1,0 +1,115 @@
+@media screen and (max-width: 680px){
+        .hero p {
+            font-size: nth($font-size, 2 );
+            }
+        .hero {
+            height:70vh;
+        }
+        .grid-contenedor {
+        grid-template-columns: repeat(2, 1fr);
+        }
+    .item-7 {
+        grid-column: span 2;
+    }}
+
+@media screen and (max-width: 570px){
+        header {
+        height: 20vh;
+        }
+        .mi-header ul li a {
+            font-size: 13px;
+        }
+        .hero p {
+                font-size: nth($font-size, 3 );
+            }
+        .hero {
+            height: 60vh;
+        }
+        header .jardin-contenedor h1{
+            font-size: nth($font-size, 2 );
+            padding:3px;
+        }
+    .fixed{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 520px){
+    header {
+        height: 18vh;
+        }
+        .mi-header ul li{
+            margin: 2px;
+            padding: 2px;
+            a{
+            font-size: 12px;
+        }}
+        .hero p {
+                font-size: nth($font-size, 3 );
+            }
+        .hero {
+            height: 50vh;
+        }
+        header .jardin-contenedor h1{
+            font-size: nth($font-size, 3 );
+        }
+    .grid-contenedor {
+        grid-template-columns: 1fr;
+    }
+    .grid-item {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+}
+@media screen and (max-width: 450px) {
+    header {
+        height: 16vh;
+        }
+        .mi-header ul li{
+            margin: 1px;
+            padding: 1px;
+            a{
+            font-size: 10px;
+        }}
+        .hero p {
+                font-size: nth($font-size, 4 );
+            }
+        .hero {
+            height: 40vh;
+        }
+        header .jardin-contenedor h1{
+            font-size: nth($font-size, 3 );
+        }
+    .bg-1 h2{
+        font-size: nth($font-size, 4 );
+    }
+    .aventuras h2{
+        font-size: nth($font-size, 4);
+    }
+    .introduccion p{
+        font-size: nth($font-size, 6);
+    }
+    .grid-contenedor {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-item {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+}
+@media screen and (max-width: 380px){
+        .mi-header ul li{
+            margin: 0px;
+            padding: 0px;
+            a{
+            font-size: 9px;
+        }}
+        .hero {
+            height: 35vh;
+        }
+        header .jardin-contenedor h1{
+            font-size: nth($font-size, 4);
+        }
+}
