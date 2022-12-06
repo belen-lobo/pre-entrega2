@@ -1,7 +1,6 @@
 @charset "UTF-8";
 /* PALETA DE COLORES */
 /*TAMAÑO DE FUENTES LISTAS*/
-/*EXTENDS*/
 @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bangers&family=Barrio&family=Bungee+Shade&family=Chewy&family=Cookie&family=Fuzzy+Bubbles:wght@400;700&family=Gloria+Hallelujah&family=Gochi+Hand&family=Kalam&family=Lilita+One&family=Londrina+Shadow&family=Shadows+Into+Light&display=swap");
 * {
   margin: 0;
@@ -10,7 +9,6 @@
 
 /* PALETA DE COLORES */
 /*TAMAÑO DE FUENTES LISTAS*/
-/*EXTENDS*/
 header {
   background-color: #faf4f4;
   background-size: cover;
@@ -50,7 +48,6 @@ header {
 
 /* PALETA DE COLORES */
 /*TAMAÑO DE FUENTES LISTAS*/
-/*EXTENDS*/
 .hero {
   background-image: url("../img/portada.jpg");
   background-size: cover;
@@ -372,7 +369,6 @@ main a {
 
 /* PALETA DE COLORES */
 /*TAMAÑO DE FUENTES LISTAS*/
-/*EXTENDS*/
 section .introduccion div a {
   text-decoration: none;
   color: #7CB518; }
