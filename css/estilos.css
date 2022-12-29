@@ -466,8 +466,6 @@ section .introduccion div a {
     .mi-header ul li a {
       font-size: 9px; }
   .hero {
-    background-image: url("/img/prueba.jpg"); }
-  .hero {
     height: 30vh; }
   header .jardin-contenedor h1 {
     font-size: 20px; } }
