@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bangers&family=Barrio&family=Bungee+Shade&family=Chewy&family=Cookie&family=Fuzzy+Bubbles:wght@400;700&family=Gloria+Hallelujah&family=Gochi+Hand&family=Kalam&family=Lilita+One&family=Londrina+Shadow&family=Shadows+Into+Light&display=swap");
-.acercade .acercade-contenedor div img, .actividades .actividades-contenedor div img, .instalaciones .instalaciones-contenedor div img, .contacto .contacto-contenedor div img, .fixed {
+.acercade-contenedor div img, .actividades-contenedor div img, .instalaciones .instalaciones-contenedor div img, .contacto-contenedor div img, .fixed {
   box-shadow: 2px 9px 28px 17px rgba(0, 0, 0, 0.65);
   -webkit-box-shadow: 2px 9px 28px 17px rgba(0, 0, 0, 0.65);
   -moz-box-shadow: 2px 9px 28px 17px rgba(0, 0, 0, 0.65); }
@@ -9,7 +9,7 @@
   padding: 0;
   box-sizing: border-box; }
 
-.acercade .acercade-contenedor div img, .actividades .actividades-contenedor div img, .instalaciones .instalaciones-contenedor div img, .contacto .contacto-contenedor div img, .fixed {
+.acercade-contenedor div img, .actividades-contenedor div img, .instalaciones .instalaciones-contenedor div img, .contacto-contenedor div img, .fixed {
   box-shadow: 2px 9px 28px 17px rgba(0, 0, 0, 0.65);
   -webkit-box-shadow: 2px 9px 28px 17px rgba(0, 0, 0, 0.65);
   -moz-box-shadow: 2px 9px 28px 17px rgba(0, 0, 0, 0.65); }
@@ -17,7 +17,7 @@
 header {
   background-color: #faf4f4;
   background-size: cover;
-  height: 25vh;
+  height: 21vh;
   width: 100%; }
   header div {
     display: flex;
@@ -27,8 +27,8 @@ header {
       list-style-type: none;
       display: inline-block;
       text-transform: uppercase;
-      margin: 5px;
-      padding: 5px; }
+      margin: 3px;
+      padding: 3px; }
       header div ul li a {
         text-decoration: none;
         color: #0d0d0d;
@@ -47,11 +47,11 @@ header {
     color: red;
     font-family: 'Chewy', cursive;
     font-weight: 250;
-    font-size: 45px;
+    font-size: 40px;
     text-shadow: 1px 1px 2px black;
-    padding: 5px; }
+    padding: 2px; }
 
-.acercade .acercade-contenedor div img, .actividades .actividades-contenedor div img, .instalaciones .instalaciones-contenedor div img, .contacto .contacto-contenedor div img, .fixed {
+.acercade-contenedor div img, .actividades-contenedor div img, .instalaciones .instalaciones-contenedor div img, .contacto-contenedor div img, .fixed {
   box-shadow: 2px 9px 28px 17px rgba(0, 0, 0, 0.65);
   -webkit-box-shadow: 2px 9px 28px 17px rgba(0, 0, 0, 0.65);
   -moz-box-shadow: 2px 9px 28px 17px rgba(0, 0, 0, 0.65); }
@@ -108,7 +108,9 @@ header {
   font-family: 'Kalam', cursive;
   font-size: 20px;
   font-weight: bolder;
-  text-align: center; }
+  text-align: center;
+  margin: 10px;
+  padding: 10px; }
 
 .introduccion a {
   font-size: 14px;
@@ -172,16 +174,16 @@ main a {
       transition: 2s;
       transform: scale(1.1); }
 
-.acercade .acercade-contenedor {
+.acercade-contenedor {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap; }
-  .acercade .acercade-contenedor div {
+  .acercade-contenedor div {
     width: 310px;
     height: 310px;
     margin: 15px;
     border: 5px solid #fa9a0a; }
-    .acercade .acercade-contenedor div img {
+    .acercade-contenedor div img {
       width: 300px;
       height: 300px;
       object-fit: cover; }
@@ -204,16 +206,16 @@ main a {
       transition: 2s;
       transform: scale(1.1); }
 
-.actividades .actividades-contenedor {
+.actividades-contenedor {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap; }
-  .actividades .actividades-contenedor div {
+  .actividades-contenedor div {
     width: 310px;
     height: 310px;
     border: 5px solid #fa9a0a;
     margin: 15px; }
-    .actividades .actividades-contenedor div img {
+    .actividades-contenedor div img {
       width: 300px;
       height: 300px;
       object-fit: cover; }
@@ -269,21 +271,23 @@ main a {
       transition: 2s;
       transform: scale(1.1); }
 
-.contacto .contacto-contenedor {
+.contacto-contenedor {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap; }
-  .contacto .contacto-contenedor div {
+  .contacto-contenedor div {
     width: 310px;
     height: 310px;
-    border: 5px solid #fa9a0a;
-    margin: 15px; }
-    .contacto .contacto-contenedor div img {
+    margin: 15px;
+    border: 5px solid #fa9a0a; }
+    .contacto-contenedor div img {
       width: 300px;
       height: 300px;
       object-fit: cover; }
 
 .contacto-html {
+  margin: 20px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center; }
@@ -357,7 +361,22 @@ main a {
   grid-row-start: 2;
   grid-row-end: 4; }
 
-.acercade .acercade-contenedor div img, .actividades .actividades-contenedor div img, .instalaciones .instalaciones-contenedor div img, .contacto .contacto-contenedor div img, .fixed {
+/*GRID ACTIVIDADES*/
+.grid-item-actividades:hover {
+  transition: 2s;
+  transform: scale(1.1); }
+
+.item-actividades-2 {
+  grid-row-start: 1;
+  grid-row-end: 3; }
+
+.item-actividades-7 {
+  grid-area: span 2; }
+
+.item-actividades-9 {
+  grid-area: span 2; }
+
+.acercade-contenedor div img, .actividades-contenedor div img, .instalaciones .instalaciones-contenedor div img, .contacto-contenedor div img, .fixed {
   box-shadow: 2px 9px 28px 17px rgba(0, 0, 0, 0.65);
   -webkit-box-shadow: 2px 9px 28px 17px rgba(0, 0, 0, 0.65);
   -moz-box-shadow: 2px 9px 28px 17px rgba(0, 0, 0, 0.65); }
@@ -388,7 +407,7 @@ section .introduccion div a {
   .hero p {
     font-size: 25px; }
   .hero {
-    height: 60vh; }
+    height: 70vh; }
   header .jardin-contenedor h1 {
     font-size: 30px;
     padding: 3px; }
@@ -398,17 +417,16 @@ section .introduccion div a {
 @media screen and (max-width: 520px) {
   header {
     height: 18vh; }
-  .mi-header ul li {
-    margin: 2px;
-    padding: 2px; }
-    .mi-header ul li a {
-      font-size: 12px; }
+  .mi-header ul li a {
+    font-size: 12px; }
   .hero p {
     font-size: 25px; }
   .hero {
     height: 50vh; }
   header .jardin-contenedor h1 {
-    font-size: 25px; }
+    font-size: 25px;
+    padding: 2px;
+    margin: 2px; }
   .grid-contenedor {
     grid-template-columns: 1fr; }
   .grid-item {
@@ -448,6 +466,8 @@ section .introduccion div a {
     .mi-header ul li a {
       font-size: 9px; }
   .hero {
-    height: 35vh; }
+    background-image: url("/img/prueba.jpg"); }
+  .hero {
+    height: 30vh; }
   header .jardin-contenedor h1 {
     font-size: 20px; } }

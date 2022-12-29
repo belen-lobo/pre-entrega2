@@ -2,7 +2,7 @@
 header{
     background-color: $color-blanco;
     background-size: cover;
-    height: 25vh;
+    height: 21vh;
     width: 100%;
     div {
         display: flex;
@@ -12,8 +12,8 @@ header{
             list-style-type: none;
             display: inline-block;
             text-transform: uppercase;
-            margin: 5px;
-            padding: 5px;
+            margin: 3px;
+            padding: 3px;
             a{
                 text-decoration: none;
                 color: $color-negro;
@@ -38,8 +38,8 @@ header{
             color:$color-principal;
             font-family: 'Chewy', cursive;
             font-weight: 250;
-            font-size: nth($font-size, 1);
+            font-size: 40px;
             text-shadow: 1px 1px 2px black;
-            padding: 5px;
+            padding: 2px;
             }
     }}

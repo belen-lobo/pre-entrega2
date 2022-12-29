@@ -56,6 +56,8 @@
         font-size: nth($font-size,4);
         font-weight: bolder;
         text-align: center;
+        margin: 10px;
+        padding: 10px;
     }
     a {
         font-size: nth($font-size,5);
@@ -126,7 +128,7 @@ main{
                 transform: scale(1.1);
             }
         }
-    }
+    }}
     .acercade-contenedor {
         display: flex;
         justify-content: space-around;
@@ -143,7 +145,7 @@ main{
                         @extend %sombra-img;
                 }
             }
-    }}
+    }
 .actividades{
     h3{
         display: flex;
@@ -164,7 +166,7 @@ main{
                 transform: scale(1.1);
             }
         }
-    }
+    }}
     .actividades-contenedor{
         display: flex;
         justify-content: space-around;
@@ -181,7 +183,7 @@ main{
                     @extend %sombra-img;
                     }
             }
-    }}
+    }
 
 .instalaciones {
     h3{
@@ -223,6 +225,7 @@ main{
             }
         }
     }}
+
 .contacto {
     h3 {
         display: flex;
@@ -243,26 +246,27 @@ main{
                 transform: scale(1.1);
         }
     }
-    }
+    }}
     .contacto-contenedor {
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
-        div {
-            width: 310px;
-            height: 310px;
-            border: 5px solid $borde-dorado;
-            margin: 15px;
-                img{
-                    width: 300px;
-                    height: 300px;
-                    object-fit: cover;
-                    @extend %sombra-img;
-                    }
-        }
-    }}
-
+            div {
+                width: 310px;
+                height: 310px;
+                margin: 15px;
+                border: 5px solid $borde-dorado;
+                    img {
+                        width: 300px;
+                        height: 300px;
+                        object-fit: cover;
+                        @extend %sombra-img;
+                }
+            }
+    }
     .contacto-html{
+        margin: 20px;
+        padding: 20px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -344,4 +348,22 @@ main{
 .item-3 {
         grid-row-start: 2;
         grid-row-end: 4;
+    }
+
+/*GRID ACTIVIDADES*/
+    .grid-item-actividades {
+        &:hover{
+            transition: 2s;
+            transform: scale(1.1);
+        }
+    } 
+    .item-actividades-2 {
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+    .item-actividades-7{
+            grid-area: span 2;
+    }
+    .item-actividades-9{
+            grid-area: span 2;
     }
